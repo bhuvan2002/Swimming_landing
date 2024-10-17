@@ -42,7 +42,7 @@ export const Navigation = (props) => {
         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul className="nav navbar-nav navbar-right">
             {/* Use anchor tags for page sections */}
-            <li><a href="#about" className="page-scroll">Why Merlin</a></li>
+            <li><a href="#about" className="page-scroll">Why Marlin</a></li>
             <li><a href="#services" className="page-scroll">Packages</a></li>
             <li><a href="#contact" className="page-scroll">Contact</a></li>
             {/* Use Link for routing */}
