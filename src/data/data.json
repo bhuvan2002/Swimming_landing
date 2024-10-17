@@ -4,7 +4,7 @@
     "paragraph": ""
   },
   "About": {
-    "paragraph": "Welcome to Merlin Aquatic Center, the premier swimming destination in Mysore! Our beautifully maintained pool offers a refreshing escape for families and fitness enthusiasts alike. We provide a safe, clean, and enjoyable environment for swimmers of all ages and skill levels. Our dedicated staff ensures the highest standards of hygiene and safety, making every visit worry-free. Whether you’re looking to relax, take swim lessons, or enjoy a fun day in the sun, [Your Pool Name] is the perfect spot. Join us to create lasting memories in the heart of Mysore—where the joy of swimming awaits!",
+    "paragraph": "Welcome to Marlin Aquatic Center, the premier swimming destination in Mysore! Our beautifully maintained pool offers a refreshing escape for families and fitness enthusiasts alike. We provide a safe, clean, and enjoyable environment for swimmers of all ages and skill levels. Our dedicated staff ensures the highest standards of hygiene and safety, making every visit worry-free. Whether you’re looking to relax, take swim lessons, or enjoy a fun day in the sun, [Your Pool Name] is the perfect spot. Join us to create lasting memories in the heart of Mysore—where the joy of swimming awaits!",
     "Why": [
       "Clean and Safe Environment",
       "Family-Friendly Atmosphere",
@@ -21,17 +21,17 @@
   "Services": [
   {
     "name": "Basic Package",
-    "text": "This is Basic package.\n\nIts detation for 3 mounths. \n\n It is for 999",
+    "text": "This is Basic package.\n\nIts duration for 3 months. \n\n It is for 999",
     "image": "img/Backyardpool.jpg"
   },
   {
     "name": "Advance Package",
-    "text": "This is Advance package.\n\nIts detation for 3 mounths. \n\n It is for 999",
+    "text": "This is Advance package.\n\nIts duration for 3 months. \n\n It is for 999",
     "image": "img/Backyardpool.jpg"
   },
   {
     "name": "Core Package",
-    "text": "This is Core package.\n\nIts detation for 3 mounths. \n\n It is for 999",
+    "text": "This is Core package.\n\nIts duration for 3 months. \n\n It is for 999",
     "image": "img/Backyardpool.jpg"
   }
 ],
