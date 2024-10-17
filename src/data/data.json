@@ -19,22 +19,22 @@
     ]
   },
   "Services": [
-    {
-      "name": "Basic Package",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "image": "img/Backyardpool.jpg"
-    },
-    {
-      "name": "Advance Package",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "image": "img/Backyardpool.jpg"
-    },
-    {
-      "name": "Core Package",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "image": "img/Backyardpool.jpg"
-    }
-  ],
+  {
+    "name": "Basic Package",
+    "text": "This is Basic package.\n\nIts detation for 3 mounths. \n\n It is for 999",
+    "image": "img/Backyardpool.jpg"
+  },
+  {
+    "name": "Advance Package",
+    "text": "This is Advance package.\n\nIts detation for 3 mounths. \n\n It is for 999",
+    "image": "img/Backyardpool.jpg"
+  },
+  {
+    "name": "Core Package",
+    "text": "This is Core package.\n\nIts detation for 3 mounths. \n\n It is for 999",
+    "image": "img/Backyardpool.jpg"
+  }
+],
   "Contact": {
     "address": " 335/3, Bogadi Rd, 4th Stage, Vijayanagara, Mysuru, Karnataka 570032 ",
     "phone": "+91 7383128293",

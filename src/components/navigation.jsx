@@ -24,7 +24,7 @@ export const Navigation = (props) => {
             href="#page-top"
             style={{ marginLeft: '70px' }}
           >
-            MERLIN AQUATIC CENTER
+            MARLIN AQUATIC CENTER
           </a>
           <button
             type="button"
