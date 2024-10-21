@@ -1,30 +1,14 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import './login.css';
 
 export const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-
-    try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', {
-        username,
-        password,
-      });
-
-      if (response.data.token) {
-        // Handle token reception
-        console.log('Login successful:', response.data.token);
-        // Redirect or store token as needed
-        window.location.href = 'https://marlin-updated.vercel.app/';
-      }
-    } catch (error) {
-      console.error('Login failed:', error);
-      alert('Login failed. Please check your credentials.');
-    }
+    // Directly redirect to the specified URL
+    window.location.href = 'https://marlin-updated.vercel.app/';
   };
 
   const handleCancel = () => {
