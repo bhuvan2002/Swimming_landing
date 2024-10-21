@@ -1,15 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 import './login.css';
 
 export const Login = () => {
-  const handleSubmit = (e) => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Redirect to the external URL
-    window.location.href = 'https://marlin-application.vercel.app/';
+
+    try {
+      const response = await axios.post('http://localhost:5000/api/auth/login', {
+        username,
+        password,
+      });
+
+      if (response.data.token) {
+        // Handle token reception
+        console.log('Login successful:', response.data.token);
+        // Redirect or store token as needed
+        window.location.href = 'https://marlin-updated.vercel.app/';
+      }
+    } catch (error) {
+      console.error('Login failed:', error);
+      alert('Login failed. Please check your credentials.');
+    }
   };
 
   const handleCancel = () => {
-    // Redirect to the home page
     window.location.href = '/';
   };
 
@@ -25,6 +43,8 @@ export const Login = () => {
             name="username"
             placeholder="Enter your username"
             className="form-control"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
           />
         </div>
         <div className="form-group">
@@ -35,6 +55,8 @@ export const Login = () => {
             name="password"
             placeholder="Enter your password"
             className="form-control"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
           />
         </div>
         <div className="form-group">
